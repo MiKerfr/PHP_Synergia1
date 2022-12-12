@@ -27,14 +27,16 @@
 	text-align: center; 
 	display: table-footer-group;
 }
-#sidebar
+#sidebar 
 {
-	width: 350px;
-	height: 500px;
+	width:  250px;
+	height: 200px;
 	background-color: ghostwhite;
 	float:right;
-	margin: auto;
-	padding: 30px;
+	border-radius: 15px; 
+	position: fixed;
+	top: 130px;
+	right: 20px;
 }
 #content
 {
@@ -43,21 +45,28 @@
 	background-color: lightseagreen;
 	margin: 50px;
 	text-align: left;
-	float:left; ;
-}
-#menu
-{
-	width: 800px;
-	height: 80px;
-	margin: auto;
-	text-align: center;
-	background-color: honeydew;
-	padding: 30px;
-	margin-top: 15px;
+	float:left; 
+	border-radius: 10px;
 }
 #FF
 {
 	color: #000000FF;
 	font-family: Arial Black;
 	size: 20
+}
+#button
+{
+    background: #B3794BFF; /* Цвет фона */
+    border: 3px solid #7a7b7e; /* Параметры рамки */
+    width: 60px; /* Ширина кнопки */
+    height: 60px; /* Высота */
+    border-radius: 1p
+}
+#button1
+{
+    background: #CCBD32FF; /* Цвет фона */
+    border: 3px solid #7a7b7e; /* Параметры рамки */
+    width: 60px; /* Ширина кнопки */
+    height: 60px; /* Высота */
+    border-radius: 1px;
 }
