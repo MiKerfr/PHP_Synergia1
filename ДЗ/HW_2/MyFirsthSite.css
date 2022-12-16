@@ -1,0 +1,88 @@
+#frame
+{
+	width: 70%;
+	height: 100%;
+    background-clip: 2.mp4;
+	margin: auto;
+	display: table;
+	
+}
+#header
+{
+	width: 900px;
+	height: 100px;
+	background-color: #F79907FF;
+	margin: auto;
+	margin-top: 50px;
+	padding: 50px;
+	text-align: center;
+	display: table-header-group;
+	font-size: 25px;
+	font-family: Arial Black;
+	border-radius: 0,0,8,8 ;
+}
+#footer
+{
+	width: 900px;
+	height: 100px;
+	background-color: skyblue;
+	margin: 50px; 
+	text-align: center; 
+	display: table-footer-group;
+	font-family: Arial Black;
+}
+#sidebar 
+{
+	width:  250px;
+	height: 200px;
+	background-color: cyan;
+	float:right;
+	border-radius: 15px; 
+	position: fixed;
+	top: 130px;
+	right: 20px;
+	text-align: center;
+	font-family: Arial Black;
+}
+#content
+{
+	width: 1000px;
+	height: 1350px;
+	background-color: lightseagreen;
+	margin: 50px;
+	text-align: left;
+	float:left; 
+	border-radius: 10px;
+}
+#FF
+{
+	color: #000000FF;
+	font-family: Arial Black;
+	size: 20
+}
+#button
+{
+    background: #B3794BFF; /* Цвет фона */
+    border: 1px solid #7a7b7e; /* Параметры рамки */
+    width: 60px; /* Ширина кнопки */
+    height: 60px; /* Высота */
+    border-radius: 1p
+}
+#button1
+{
+    background: #CCBD32FF; /* Цвет фона */
+    border: 1px solid #7a7b7e; /* Параметры рамки */
+    width: 60px; /* Ширина кнопки */
+    height: 60px; /* Высота */
+    border-radius: 1px;
+}
+#text 
+{
+	font-family: sans-serif;
+    size: 25;
+}
+#a
+{
+	font-family: Arial Black;
+	font-size: 20;
+}
