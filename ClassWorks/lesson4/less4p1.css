@@ -1,0 +1,50 @@
+#frame
+{
+	width: 1450px; /* ширина */
+	background-color: aqua; /*фон*/
+	margin: auto; /* выравнивание по центру */
+	display: table; /* тображение в таблице */
+	height: 100%; /*высота*/
+}
+#header
+{
+	width: 900px;/*ширина*/
+	height: 50px;/* высота */
+	background-color: gray; /*фон*/
+	margin: auto; /*выравн по центру*/
+	margin-top: 10px; /*отступ от верхн границы*/
+	padding: 40px; /*от нижн гран*/
+	text-align: center; /*в центр*/
+	display: table-header-group; /*показывание как...*/
+}
+#footer
+{
+	width: 950px;
+	height: 100px;
+	background-color: skyblue;
+	margin: auto; /*общий отступ*/
+	text-align: center; /*выравн текста по центру*/
+	margin-top: 1000px; /*отступ сверху*/
+	padding: 20px; /*отступ снизу*/
+	display: table-footer-group;
+}
+#sidebar
+{
+	width: 150px;
+	height: 1150px;
+	background-color: ghostwhite;
+	float:right;
+	margin-top: 50px;
+	margin: 30px;
+}
+#content
+{
+	width: 900px;
+	height: 900px;
+	background-color: lightseagreen;
+	margin: 50px;
+	text-align: left;
+	margin-top: 100px;
+	padding: 100px;
+	float:left ;
+}
