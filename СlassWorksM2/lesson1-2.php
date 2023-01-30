@@ -56,6 +56,6 @@
     echo '<br>';
     $pattern = '#\d#';
     $replacement = '0';
-    $subject = '1 123 xax 1321 xaax 8976986325 xaaax 141 xaaaax 000 xab';
+    $subject = '1 123 xax 1321 xaax 8976986325 xaaax 141 xaaaax 000 xabda';
     $res= preg_replace($pattern, $replacement,$subject);
     echo $res;
