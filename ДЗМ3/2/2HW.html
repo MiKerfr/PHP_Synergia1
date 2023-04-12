@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Форма для ввода имени и возраста пользователя</title>
+</head>
+<body>
+ <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+  <label for="name">Имя:</label>
+  <input type="text" name="name" id="name"><br><br>
+  <label for="age">Возраст:</label>
+  <input type="text" name="age" id="age"><br><br>
+  <input type="submit" value="Отправить">
+ </form>
+
+ <?php 
+ if ($_SERVER["REQUEST_METHOD"] == "POST") {
+     $name = $_POST["name"];
+     $age = $_POST["age"];
+     echo "<h2>Привет, $name! Тебе $age лет.</h2>";
+ }
+ ?>
+</body>
+</html>
